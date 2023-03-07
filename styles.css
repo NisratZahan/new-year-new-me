@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    font-family:'Open Sans',  sans-serif;
+}
+.header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:660px;
+}
+.banner{
+    padding-top: 142px;
+    padding-bottom: 428px;
+    padding-left: 845px;
+    padding-right: 230px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: right;
+    color: #151414;
+}
+.banner-description{
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+}
+
+.btn-primary{
+    background-color: coral;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    /* left: 1210px;
+    top: 578px; */
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+.failure-period{
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+
+}
+.person{
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    background: url(ff);
+
+  
+}
+.failure-list{
+width: 416px;
+height: 400px;
+/* left: 862px;
+top: 1000px;
+margin-left: 87px; */
+padding-left: 87px;
+}
+.list-title{
+    margin-top:369px;
+    width: 288px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+.list-description{
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */
+    
+    color: #444343;
+    
+}
+/* ul {
+    list-style: none;
+}
+ul li:before{
+    content:'';
+} */
+.plans{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    
+    color: #151414;
+
+
+}
+.plans-header{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plans-details{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+/* message styles */
+.message{
+    margin-top: 124px;
+    margin-left:230px;
+    margin-right: 230px;
+    background: url(images/gradient3.png),url(images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    font-size:40px;
+    height: 300px;
+   
+}
+.positive-mind{
+    width: 670px;
+    /* height: 182px; */
+    left: 294px;
+    top: 2281.26px;
+    margin-top: 69px;
+    margin-bottom: 69px;
+    margin-left: 64px;
+    
+}
+.mindset-btn-primary{
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    /* left: 1210px;
+    top: 578px; */
+    color: chocolate;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 30px;
+}
