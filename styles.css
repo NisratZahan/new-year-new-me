@@ -131,7 +131,6 @@ ul li:before{
 }
 .positive-mind{
     width: 670px;
-    /* height: 182px; */
     left: 294px;
     top: 2281.26px;
     margin-top: 69px;
@@ -147,10 +146,22 @@ ul li:before{
     text-align: center;
     width: 160px;
     height: 64px;
-    /* left: 1210px;
-    top: 578px; */
     color: chocolate;
     border: 0;
     border-radius: 5px;
     margin-top: 30px;
 }
+.career{
+    text-align: center;
+    margin-top:130px;
+}
+.career-focuse{
+
+}
+.skills{
+    
+}
+.career-focuse-description{
+    width: 670px;
+}
+
