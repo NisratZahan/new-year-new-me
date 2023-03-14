@@ -37,18 +37,16 @@
     text-align: center;
     width: 160px;
     height: 64px;
-    /* left: 1210px;
-    top: 578px; */
     color: #FFFFFF;
     border: 0;
     border-radius: 5px;
     margin-top: 30px;
 
 }
+/* styles for failure periods */
 .failure-period{
     display: flex;
     justify-content: center;
-    margin-top: 131px;
 
 }
 .person{
@@ -57,44 +55,53 @@
     left: 206px;
     top: 939px;
     background: url(ff);
+    margin-top: 130px;
 
   
 }
-.failure-list{
+.failures-list{
 width: 416px;
 height: 400px;
-/* left: 862px;
-top: 1000px;
-margin-left: 87px; */
-padding-left: 87px;
+margin-top: 369px;
 }
 .list-title{
-    margin-top:369px;
     width: 288px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #151414;
-
+    margin-bottom: 24px;
+    margin-left: 87px;
 }
 .list-description{
     width: 416px;
     height: 104px;
-    left: 862px;
-    top: 1296px;
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 26px; */
-    
     color: #444343;
+    margin-left: 87px;
+}
+.list-style{
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343; 
+    margin-left: 47px;
+}
+
+/* convert bullet point to tikmark */
+ul{
+    list-style: none;
+    align-items: first baseline;
     
 }
-/* ul {
-    list-style: none;
-}
+  
 ul li:before{
-    content:'';
-} */
+    content: '✓ ';
+    color: green;
+  }
+  /* styles for plans section */
 .plans{
     text-align: center;
     margin-top: 130px;
@@ -155,13 +162,131 @@ ul li:before{
     text-align: center;
     margin-top:130px;
 }
-.career-focuse{
-
+.my-skills{
+    display: flex;
+    gap:50px;
+    width: 1141px;
+    margin-left: 350px;
+    
 }
 .skills{
+    margin-top: 20px;
     
+}
+.skill-head{
+    margin-top: 20px;
+
 }
 .career-focuse-description{
     width: 670px;
+    padding:40px 430px;
+    
 }
+.skill-description{
+    width: 181px;
+    text-align: center;
+}
+/* styles for contact */
+.contact-details{
+    background:#151414;
+    margin-top: 130px;
+    display: flex;
+    gap: 331px;
+
+}
+.contact-header{
+width: 148px;
+height: 53px;
+left: 230px;
+top: 2776.3px;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #F8F8F8;
+}
+.contact{
+padding-top: 130px;
+padding-left: 230px;
+padding-right: 85px;
+padding-bottom: 130px;
+
+}
+.contact-description{
+    margin-top: 16px;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+.contact-method{
+    margin-top: 24px;
+    width: 186px;
+    height: 146px;
+
+}
+.phone-number{
+width: 286px;
+height: 26px;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+.email-address{
+width: 186px;
+height: 26px;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+border: 0;
+}
+.form-design{
+width: 146px;
+height: 21px;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+.social-networking{
+    margin-top: 32px;
+    width: 175px;
+    height: 46px;
+    direction: none; 
+}
+.subscrib{
+    margin-top: 130px;
+    width: 325px;
+    height: 204px;
+}
+.subscrib-header{
+width: 123px;
+height: 29px;
+
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.form-design{
+box-sizing: border-box;
+width: 325px;
+height: 64px;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
+margin-top: 31px;
+}
+.email-address-design{
+    margin-top: 22px;
+    margin-left: 15px;
+    margin-right: 130px;
+    margin-bottom: 22px;
+    border: 0;
+    background: none;
+    color: #FFFFFF;
+    
+    }
 
